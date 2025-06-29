@@ -418,6 +418,9 @@ footer ul li a {
   .experience-info {
     flex-direction: column;
   }
+  .skills .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media (max-width: 768px) {
@@ -436,6 +439,9 @@ footer ul li a {
   }
   footer ul {
     gap: 1rem;
+  }
+  .skills .grid{
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -479,11 +485,6 @@ footer ul li a {
 }
 
 /* Skills section fix */
-.skills .grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-}
 
 .skills .grid-card {
   padding: 1.5rem;
