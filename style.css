@@ -489,7 +489,16 @@ footer ul li a {
   padding: 1.5rem;
   align-items: center;
   text-align: center;
+  min-height: 180px; /* ✅ Force same height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* ✅ Vertically center content */
+  border: 2px solid black;
+  border-radius: 3rem;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
 }
+
 
 .skills .grid-card i {
   font-size: 1.8rem;
