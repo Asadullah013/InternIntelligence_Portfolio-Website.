@@ -565,7 +565,7 @@ footer ul li a {
   }
 }*/
 
-@media (max-width: 360px) {
+@media (max-width: 384px) {
   
   header {
     flex-direction: row;
