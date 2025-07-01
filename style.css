@@ -452,7 +452,7 @@ footer ul li a {
   }
 }
 
-/*@media (max-width: 600px) {
+@media (max-width: 600px) {
   header #menu-icon {
     display: block;
   }
@@ -703,19 +703,6 @@ footer ul li a {
     padding: 2rem;
   }
 }
-
-
-
-/* Skills section fix 
-.skills .grid-card {
-  height: 150px;
-  width: 150px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}*/
 
 .skills .grid-card i {
   font-size: 1.8rem;
