@@ -411,13 +411,7 @@ footer ul li a {
 }
 
 
-@media (max-width: 360px) {
-  body {
-    overflow-x: hidden;
-  }
 
-  /* ... your other 360px styles ... */
-}
 
 /* Responsive Design */
 @media (max-width: 1280px) {
@@ -565,12 +559,19 @@ footer ul li a {
   }
 }*/
 
-@media (max-width: 384px) {
-  
+@media (max-width: 400px) {
+  body {
+    overflow-x: hidden;
+  }
+
   header {
     flex-direction: row;
-    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12.5rem;
     padding: 0.5rem 1rem;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .logo {
@@ -578,7 +579,9 @@ footer ul li a {
   }
 
   #menu-icon {
+    display: block; /* <== Make sure menu icon shows */
     font-size: 1.5rem;
+    cursor: pointer;
   }
 
   .visit-btn {
@@ -586,13 +589,31 @@ footer ul li a {
   }
 
   .nav-links {
-    gap: 0.5rem;
-    font-size: 0.8rem;
+    display: none; /* <== Hide by default */
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 1rem 0;
+    border-radius: 0 0 1rem 1rem;
+    z-index: 1000;
+  }
+
+  .nav-links.active {
+    display: flex; /* <== Show when toggled via JS */
   }
 
   .nav-links li {
     margin-top: 0.5rem;
     padding: 0.5rem;
+  }
+
+  .nav-links a {
+    font-size: 0.8rem;
+    color: white;
   }
 
   .about .about-container {
@@ -637,14 +658,14 @@ footer ul li a {
     width: 130px;
     height: auto;
     padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  white-space: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
   }
 
   .skills .grid-card span {
@@ -671,15 +692,16 @@ footer ul li a {
   .section-title {
     font-size: 2.2rem;
   }
-  .education .grid {
-  justify-content: center;
-}
 
-.education .grid-card {
-  width: 100%;
-  max-width: 500px; 
-  padding: 2rem;
-}
+  .education .grid {
+    justify-content: center;
+  }
+
+  .education .grid-card {
+    width: 100%;
+    max-width: 500px;
+    padding: 2rem;
+  }
 }
 
 
