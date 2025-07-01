@@ -452,45 +452,6 @@ footer ul li a {
   }
 }
 
-@media (max-width: 600px) {
-  header #menu-icon {
-    display: block;
-  }
-  .nav-links {
-    position: absolute;
-    top: 100%;
-    margin-top: 1rem;
-    width: 100%;
-    padding: 1rem;
-    color: white;
-    display: none;
-    flex-direction: column;
-    text-align: center;
-    background: rgba(0, 0, 0, 0.9);
-    border-radius: 3rem;
-  }
-  .nav-links li {
-    margin-top: 1.5rem;
-    padding: 1rem;
-  }
-  .nav-links.active {
-    display: flex;
-  }
-  header {
-    padding: 1rem 5rem;
-    gap: 8rem;
-  }
-  header .logo {
-    font-size: 1.5rem;
-  }
-  .about-container img {
-    width: 80vw;
-  }
-  .skills .grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
 @media (max-width: 400px) {
   body {
     overflow-x: hidden;
