@@ -452,7 +452,7 @@ footer ul li a {
   }
 }
 
-@media (max-width: 600px) {
+/*@media (max-width: 600px) {
   header #menu-icon {
     display: block;
   }
@@ -489,7 +489,7 @@ footer ul li a {
   .skills .grid {
     grid-template-columns: repeat(2, 1fr);
   }
-}
+}*/
 
 @media (max-width: 480px) {
   header {
