@@ -526,7 +526,7 @@ footer ul li a {
     gap: 1rem;
   }
 
-  /* ✅ Show 2 skill cards per row */
+   
   .skills .grid {
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
