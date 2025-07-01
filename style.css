@@ -429,7 +429,7 @@ footer ul li a {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-
+/*
 @media (max-width: 768px) {
   header {
     gap: 1rem;
@@ -489,7 +489,7 @@ footer ul li a {
   .skills .grid {
     grid-template-columns: repeat(2, 1fr);
   }
-}*/
+}
 
 @media (max-width: 480px) {
   header {
