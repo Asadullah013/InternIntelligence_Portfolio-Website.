@@ -449,7 +449,7 @@ footer ul li a {
   }
 }
 
-@media (max-width: 600px) {
+/*@media (max-width: 600px) {
   header #menu-icon {
     display: block;
   }
@@ -554,7 +554,7 @@ footer ul li a {
     flex-direction: column;
     gap: 0.5rem;
   }
-}
+}*/
 
 @media (max-width: 360px) {
   
