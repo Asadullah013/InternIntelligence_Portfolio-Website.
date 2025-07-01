@@ -410,7 +410,7 @@ footer ul li a {
   font-weight: 600;
 }
 
-/* Responsive Design */
+/* Responsive Design 
 @media (max-width: 1280px) {
   header {
     padding: 1rem 2rem;
@@ -449,7 +449,7 @@ footer ul li a {
   }
 }
 
-/*@media (max-width: 600px) {
+@media (max-width: 600px) {
   header #menu-icon {
     display: block;
   }
