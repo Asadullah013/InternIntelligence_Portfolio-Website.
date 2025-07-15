@@ -428,6 +428,9 @@ footer ul li a {
   .skills .grid {
     grid-template-columns: repeat(3, 1fr);
   }
+  .project-grid {
+  grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media (max-width: 768px) {
