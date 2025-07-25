@@ -635,7 +635,12 @@ footer ul li a {
   transform: scale(1.02);
   transition: all 0.3s ease-in-out;
 }
-h3{
- color: linear-gradient(to right, #ff00ff, #009dff);
-
+#experience h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  background: linear-gradient(to right, #ff00ff, #009dff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
+
