@@ -205,7 +205,16 @@ section {
   cursor: pointer;
   transition: 0.2s ease-in-out;
 }
-
+.experience-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+.experience img{
+  width: 24vw;
+  border-radius: 3rem;
+}
 .grid-card:hover {
   transform: scale(1.02);
   background-color: black;
