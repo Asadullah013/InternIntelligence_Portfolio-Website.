@@ -635,7 +635,7 @@ footer ul li a {
   transform: scale(1.02);
   transition: all 0.3s ease-in-out;
 }
-.experience h3{
+h3{
  color: linear-gradient(to right, #ff00ff, #009dff);
 
 }
