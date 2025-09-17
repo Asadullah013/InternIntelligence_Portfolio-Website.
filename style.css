@@ -616,5 +616,9 @@ section {
   -webkit-background-clip: text;
   color: transparent;
 }
+  .experience{
+    width: auto;
+  }
+
 
 
